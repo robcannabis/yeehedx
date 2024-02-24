@@ -36,7 +36,7 @@ client.on('ready', async () => {
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
     const change = ['https://cdn.discordapp.com/attachments/1210999654809083914/1211006158681145366/v21111.jpg?ex=65eca05f&is=65da2b5f&hm=02e519ddfb37c6ae6c1496e77ea3c5136518a96701c99cf59eef62929912fb6a&']; //รูปใหญ่
      //const poop = ['https://cdn.discordapp.com/attachments/1114551993499918438/1122462459710681170/1095697715238797403.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460817977395/1095697740543049819.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460125921341/1095697719189844048.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1116029023957561425/1110570045454696509.gif']; // รูปเล็ก
-    const change2 = [' ']; // ชื่อสลับ
+    //const change2 = [' ']; // ชื่อสลับ
     //const yyyt = [' ']; // ชื่อ button1
     //const ddds = ['https://www.youtube.com/watch?v=_JI2uxanJ0w']; // ลิ้ง button1
 
@@ -52,12 +52,12 @@ iooi[Math.floor(Math.random()*iooi.length)]; // button 1 ใส่ชื่อ
 //poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
     const ssss = 
 change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
-    const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
+    //const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
     const r = new Discord.RichPresence()
       .setApplicationId('1112701450150232085')
       .setType('STREAMING')
       .setURL('https://www.youtube.com/watch?v=yFg7_bjl2-k')
-      .setState(`📅（ ${moment().format('DD/MM/YYYY')} ）`)
+      .setState(`18/04/66`)
       .setName(`RobShop`)
       .setDetails(`⏰（  ${getTime()} ）`)
       //.setAssetsSmallImage(`${popp}`) 
